@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "minisort",
+  "version": "${version}",
+  "name": "Minisort",
+  "description": "Minimalistic inventory sorter",
+  "authors": [
+    "SandaruKasa"
+  ],
+  "contact": {
+    "website": "https://github.com/SandaruKasa/Minisort",
+    "repo": "https://github.com/SandaruKasa/Minisort.git"
+  },
+  "license": "TODO",
+  "icon": "assets/minisort/icon.jpg",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "sandarukasa.minisort.Minisort"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18"
+  }
+}
